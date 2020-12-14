@@ -10,6 +10,7 @@ if trigger == 'hoh'
     
     at2 = 0;
     
+%this is a test comment    
 elseif trigger == 'bie'
         
      at1 = (r1+r3)/2;
