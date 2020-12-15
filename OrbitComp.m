@@ -1,6 +1,7 @@
 function [r0, v0, OE0, rf, vf, OEf] = OrbitComp(phi, lambda, rho, beta...
     ,sigma,rho_dot, beta_dot, sigma_dot, TOF)
-     
+    %this code will take ground track data and return initial and final
+    %oribtal information such as state vectors and orbital elements
     %{
     %testers
     phi = 32.248814; %latitude of ground station [deg]

@@ -1,4 +1,11 @@
 function [f,E,F] = NewtonMethod(M,tol,e)
+%This function uses newtons method to determine the time of flight from the
+%mean anamoly, a accuracy tolerance (tol = 0.01 works well), and orbits 
+%eccentricity. the code will output 
+%f, true anomaly
+%E, eccentric anomoly, if applicable
+%F, hyperbolic anomoly, if applicable
+
 
 if e < 1
     %initial guess

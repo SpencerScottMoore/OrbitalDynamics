@@ -1,4 +1,14 @@
 function [a,e,i,BOmega,lomega,f,h,e_hat,n_hat,h_hat,t]  = RVtoOE(r_vec,v_vec,mu)
+%this will take the state vectors and return the orbital elements and the
+%cooresponding vectors 
+% a is semi major axis
+% e is eccentricity
+% i is inclination
+% BOmega is longitude of the ascending node
+% lomega is argument of periapsis 
+% f is true anomoly 
+% mu is graviational parameter 
+
 %equations for orbital elements
 r = norm(r_vec);
 r_hat = r_vec/r;

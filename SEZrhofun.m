@@ -1,4 +1,7 @@
 function [rhoSEZ,rhodotSEZ] = SEZrhofun(beta,sigma,rho,betadot,sigmadot,rhodot)
+   %this finds the rho and rho dot vectors in the SEZ frame from ground
+   %track data 
+
     %finds components of rho in SEZ
     rhos = -rho*cos(sigma)*cos(beta);
     rhoe = rho*cos(sigma)*sin(beta);

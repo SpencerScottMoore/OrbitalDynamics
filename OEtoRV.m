@@ -1,4 +1,15 @@
 function  [r_vec,v_vec]= OEtoRV(a,e,i,BOmega,lomega,f,mu)
+%this function will take orbital elements and return the state vectors of
+%the orbit
+% a is semi major axis
+% e is eccentricity
+% i is inclination
+% BOmega is longitude of the ascending node
+% lomega is argument of periapsis 
+% f is true anomoly 
+% mu is graviational parameter 
+
+
 %find h
 h = sqrt(mu*a*(1-e^2));
 

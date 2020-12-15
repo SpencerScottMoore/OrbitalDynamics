@@ -1,4 +1,7 @@
 function [conout] = SEZECISEZ(lambda,phi,convert,trigger)
+   %converts the SEZ frame to the ECI frame and vice versa depending on the
+   %trigger. convert is what you would like to convert
+
     %defines the rotation matrix and inverse. Origininally just used matlab
     %built in inv() function but typed it out during trouble shooting phase
     %so i just left it
