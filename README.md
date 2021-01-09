@@ -1,0 +1,3 @@
+The following is a list of functions and Matlab code used for preliminary orbital determination, along with other functions having to do with orbital dynamics. Each function has a short description in the comments for what each of their purposes is and should give a good idea of what each variable is.
+
+They are all mostly generalized and can be used in whatever circumstance is needed as long as all functions are in the same folder.
